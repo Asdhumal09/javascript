@@ -36,7 +36,8 @@ console.log("Please Enter You User Name");
 
 // -----------------------------------------
 
-function calculateCartPrice(...num1){
+function calculateCartPrice(val1 ,val2, ...num1){
 return num1
 }
 console.log(calculateCartPrice(200,1000,500,600))
+
